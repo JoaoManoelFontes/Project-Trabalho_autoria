@@ -1,0 +1,27 @@
+#main-container {
+  margin-top: 5%;
+  background-image: linear-gradient(#eb1d36, #793136);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  color: #ffffff;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.726);
+}
+
+#main-item {
+  background-color: #f5eddcbb;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 50px;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.432);
+}
+
+input {
+  border-radius: 15px;
+  border: none;
+  height: 2rem;
+}
