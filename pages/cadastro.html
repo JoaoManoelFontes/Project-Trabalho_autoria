@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cine Star - Entrar</title>
-    <!-- Css imports -->
-    <link rel="stylesheet" href="/styles/all.css" />
-    <link rel="stylesheet" href="/styles/cadastro.css" />
     <!-- Bootstrap imports -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -19,12 +16,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
+    <!-- Css imports -->
+    <link rel="stylesheet" href="../styles/all.css" />
+    <link rel="stylesheet" href="../styles/cadastro.css" />
     <!-- Site icon  -->
     <link rel="icon" href="/static/icon_RT.png" />
   </head>
   <body>
     <header>
-      <h1>Cine Star</h1>
+      <h1><a href="home.html">Cine Star</a></h1>
       <div class="search-input">
         <input type="text" placeholder="    Pesquise um filme ou série ..." />
         <button type="button" class="btn btn-secondary" image="stat">
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#" style="color: #ffff">Filmes</a>
+              <a class="nav-link" href="filmes.html" style="color: #ffff">Filmes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #ffff">Séries</a>
+              <a class="nav-link" href="series.html" style="color: #ffff">Séries</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="home.html" style="color: #ffff"
@@ -55,15 +55,56 @@
         <h3 style="text-align: center; padding: 3%">Cadastro</h3>
         <div class="container-sm" id="main-item">
           <form>
-            <div class="form-group">
-              <label for="form-email">E-mail</label><br />
-              <input
-                type="email"
-                id="form-email"
-                name="email"
-                placeholder="   Digite seu email..."
-              />
+            <fieldset id="grupoR1">
+              <div class="form-group">
+                <label for="form-email">E-mail</label><br/>
+                <input
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  placeholder="   Digite seu email..."
+                />
+              </div>
+            </fieldset>
+            <fieldset id="grupoR1">
+              <div class="form-group">
+                <label for="form-senha">Senha</label><br/>
+                <input
+                  type="password"
+                  id="form-senha"
+                  name="senha"
+                  placeholder="   Digite sua senha..."
+                />
+              </div>
+            </fieldset>
+            <fieldset id="grupoR1">
+              <div class="form-group">
+                <label for="form-senha">Confirmar Senha</label><br/>
+                <input
+                  type="password"
+                  id="form-senha"
+                  name="confirm-senha"
+                  placeholder="   Confirme a sua senha..."
+                />
+              </div>
+            </fieldset>
+            <fieldset id="grupoR2">
+              <div>
+                  <label for="DDD"> DDD </label>
+                  <input type="number" name="DDD" id="DDD" min="1" max="100" required>
+              </div>
+              <div>
+                  <label for="Telefone"> Telefone </label>
+                  <input type="number" name="Telefone" id="Telefone" required>
+              </div>
+              <div id="data">
+                <label for="data" id="labeldata"> Data de nascimento:</label>
+                <input type="date" name="data" id="data" required>
             </div>
+          </fieldset>
+          <div class="botao">
+            <button id="BEntrar">Entrar</button>
+          </div>
           </form>
         </div>
         <br />
@@ -73,24 +114,24 @@
       <div class="container-flex-footer">
         <div class="main-content-footer">
           <h1>Cine Star</h1>
-          <p class="lead">O mundo do cinema ao seu alcançe</p>
+          <p class="lead">O mundo do cinema ao seu alcance</p>
         </div>
         <div class="contact-list-footer">
           <h5>Contatos:</h5>
           <ul class="list-unstyled mb-0">
             <li>fontes.manoel@escolar.ifrn.edu.br</li>
             <li>caua.alexandre@escolar.ifrn.edu.br</li>
+            <li>clara.morais@escolar.ifrn.edu.br</li>
           </ul>
         </div>
         <div class="media-list-footer">
           <h5>Redes sociais:</h5>
           <ul class="list-unstyled mb-0" style="font-family: sans serif">
-            <li>@fontesjoaomanoel</li>
-            <li>Github: @joaomanoelfontes</li>
+            <li>Instagram: @cinestar</li>
+            <li>Twitter: @cinestarofc</li>
           </ul>
         </div>
       </div>
-    </footer>
     <!-- Bootstrap script -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

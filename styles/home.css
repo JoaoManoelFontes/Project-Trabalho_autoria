@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 #main-post {
-  background-image: url("/static/black_panther_main_post.png");
+  background-image: url("../static/black_panther_main_post.png");
   background-size: cover;
+  width: 80%;
   border-radius: 20px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.582);
+}
+
+#main-post:hover{
+  background-size: 1350px;
+  transition: 500ms linear; 
 }
 
 .text-post {
@@ -58,25 +64,20 @@
   background-image: linear-gradient(rgb(107, 114, 117), rgb(56, 54, 54));
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.582);
 }
+.card-title{
+  color: #ffff;
+}
 
 .card-text {
   font-family: "Nunito", cursive;
   font-size: small;
-  font-weight: bold;
   color: #ffff;
-  padding: 0%;
 }
 
-.footer {
-  text-align: center;
-}
 
-.footer > a {
-  font-family: "Nunito", cursive;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.footer > a:hover {
-  color: #bdbcbc;
+#btn-card-footer{
+  background-color: #eb1d36;
+  border: none;
+  font-size: small;
+  width: 100%;
 }
