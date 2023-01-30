@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../styles/all.css" />
     <link rel="stylesheet" href="../styles/cadastro.css" />
     <!-- Site icon  -->
-    <link rel="icon" href="/static/icon_RT.png" />
+    <link rel="icon" href="../static/icon_RT.png" />
   </head>
   <body>
     <header>
@@ -63,6 +63,7 @@
                   id="form-email"
                   name="email"
                   placeholder="   Digite seu email..."
+                  required
                 />
               </div>
             </fieldset>
@@ -74,6 +75,7 @@
                   id="form-senha"
                   name="senha"
                   placeholder="   Digite sua senha..."
+                  required
                 />
               </div>
             </fieldset>
@@ -85,17 +87,18 @@
                   id="form-senha"
                   name="confirm-senha"
                   placeholder="   Confirme a sua senha..."
+                  required
                 />
               </div>
             </fieldset>
             <fieldset id="grupoR2">
               <div>
                   <label for="DDD"> DDD </label>
-                  <input type="number" name="DDD" id="DDD" min="1" max="100" required>
+                  <input type="tel" name="DDD" id="DDD" required placeholder="  ddd" pattern="[0-9]{2}">
               </div>
               <div>
                   <label for="Telefone"> Telefone </label>
-                  <input type="number" name="Telefone" id="Telefone" required>
+                  <input type="tel" name="Telefone" id="Telefone" required placeholder="  xxxxx-xxxx" pattern="[0-9]{5}-[0-9]{4}">
               </div>
               <div id="data">
                 <label for="data" id="labeldata"> Data de nascimento:</label>

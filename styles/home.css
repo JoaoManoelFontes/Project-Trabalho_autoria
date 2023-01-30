@@ -5,11 +5,11 @@
   background-size: cover;
   width: 80%;
   border-radius: 20px;
-  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.582);
+  transition: 500ms linear; 
 }
 
 #main-post:hover{
-  background-size: 1350px;
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.582);
   transition: 500ms linear; 
 }
 
@@ -49,7 +49,6 @@
 .trending-carrousel {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
