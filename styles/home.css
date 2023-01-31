@@ -5,12 +5,12 @@
   background-size: cover;
   width: 80%;
   border-radius: 20px;
-  transition: 500ms linear; 
+  transition: 500ms linear;
 }
 
-#main-post:hover{
-  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.582);
-  transition: 500ms linear; 
+#main-post:hover {
+  box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.829);
+  transition: 500ms linear;
 }
 
 .text-post {
@@ -31,52 +31,4 @@
 
 .text-post > a :hover {
   color: #929292;
-}
-
-#trending-movies {
-  padding: 2%;
-}
-
-.trending-text {
-  color: #ffffff;
-  font-family: "Bebas Neue", sans-serif;
-  background-color: #eb1d36;
-  width: 10%;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.trending-carrousel {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#card-carrousel-item {
-  width: 10rem;
-  height: 10rem;
-}
-
-.card-body {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-image: linear-gradient(rgb(107, 114, 117), rgb(56, 54, 54));
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.582);
-}
-.card-title{
-  color: #ffff;
-}
-
-.card-text {
-  font-family: "Nunito", cursive;
-  font-size: small;
-  color: #ffff;
-}
-
-
-#btn-card-footer{
-  background-color: #eb1d36;
-  border: none;
-  font-size: small;
-  width: 100%;
 }

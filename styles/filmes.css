@@ -1,0 +1,9 @@
+.main-title {
+  color: #eb1d36;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  padding: 3%;
+  text-decoration: underline 3px #eb1d359c;
+}

@@ -37,9 +37,9 @@ header h1 a {
 
 header h1 a:hover {
   letter-spacing: 2px;
-  opacity: 95% ;
+  opacity: 95%;
   color: #ffffff;
-  transition: 500ms linear; 
+  transition: 500ms linear;
 }
 
 header > nav {
@@ -109,7 +109,7 @@ header > nav {
   padding-right: 10px;
 }
 
-.modal{
+.modal {
   visibility: hidden;
   opacity: 0;
   top: 0;
@@ -137,7 +137,6 @@ header > nav {
   padding: 1em 2em;
 }
 
- 
 .close {
   position: absolute;
   top: 10px;
@@ -146,7 +145,7 @@ header > nav {
   text-decoration: none;
 }
 
-#modal-main-container{
+#modal-main-container {
   background-image: linear-gradient(#222121, #2f2e41);
   border-radius: 10px;
   color: #ffff;
@@ -155,10 +154,58 @@ header > nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Bebas Neue", sans-serif;
 }
 
-.modal_content > p > a{
+.modal_content > p > a {
   color: #ffff;
   text-decoration: none;
+}
+
+.trending-text {
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #eb1d36;
+  width: 10%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.582);
+}
+
+.trending-carrousel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#card-carrousel-item {
+  width: 10rem;
+  margin-bottom: 5%;
+}
+
+.card-body {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(rgb(107, 114, 117), rgb(56, 54, 54));
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.582);
+}
+.card-title {
+  color: #ffff;
+}
+
+.card-text {
+  font-family: "Nunito", cursive;
+  font-size: small;
+  color: #ffff;
+}
+
+#btn-card-footer {
+  background-color: #eb1d36;
+  border: none;
+  font-size: small;
+  width: 100%;
+}
+
+#trending-movies {
+  padding: 2%;
 }
