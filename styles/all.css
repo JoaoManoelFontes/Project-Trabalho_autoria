@@ -214,3 +214,9 @@ header > nav {
 #trending {
   padding: 2%;
 }
+
+@media (max-width: 1200px) {
+  #search{
+    width: 50px;
+  }
+}

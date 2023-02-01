@@ -31,7 +31,6 @@
           <span>Ir</span>
         </button>
       </div>
-
       <nav class="navbar navbar-expand-lg">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -51,14 +50,14 @@
       </nav>
     </header>
     <main>
-      <div class="" id="main-container">
+      <div id="main-container">
         <h3 style="text-align: center; padding: 3%">Cadastro</h3>
         <div class="container-sm" id="main-item">
           <form>
             <fieldset id="grupoR1">
               <div class="form-group">
                 <label for="form-email">E-mail</label><br/>
-                <input
+                <input class="singup"
                   type="email"
                   id="form-email"
                   name="email"
@@ -70,7 +69,7 @@
             <fieldset id="grupoR1">
               <div class="form-group">
                 <label for="form-senha">Senha</label><br/>
-                <input
+                <input class="singup"
                   type="password"
                   id="form-senha"
                   name="senha"
@@ -82,7 +81,7 @@
             <fieldset id="grupoR1">
               <div class="form-group">
                 <label for="form-senha">Confirmar Senha</label><br/>
-                <input
+                <input class="singup"
                   type="password"
                   id="form-senha"
                   name="confirm-senha"
@@ -94,19 +93,19 @@
             <fieldset id="grupoR2">
               <div>
                   <label for="DDD"> DDD </label>
-                  <input type="tel" name="DDD" id="DDD" required placeholder="  ddd" pattern="[0-9]{2}">
+                  <input class="singup" type="tel" name="DDD" id="DDD" required placeholder="  ddd" pattern="[0-9]{2}">
               </div>
               <div>
                   <label for="Telefone"> Telefone </label>
-                  <input type="tel" name="Telefone" id="Telefone" required placeholder="  xxxxx-xxxx" pattern="[0-9]{5}-[0-9]{4}">
+                  <input class="singup" type="tel" name="Telefone" id="Telefone" required placeholder="  xxxxx-xxxx" pattern="[0-9]{5}-[0-9]{4}">
               </div>
               <div id="data">
                 <label for="data" id="labeldata"> Data de nascimento:</label>
-                <input type="date" name="data" id="data" required>
+                <input class="singup" type="date" name="data" id="data" required>
             </div>
           </fieldset>
           <div class="botao">
-            <button id="BEntrar">Entrar</button>
+            <button class="btn btn-secondary" id="BEntrar">Entrar</button>
           </div>
           </form>
         </div>
