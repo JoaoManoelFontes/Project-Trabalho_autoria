@@ -171,6 +171,11 @@ header > nav {
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.582);
 }
 
+.trending-text > h2 > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .trending-carrousel {
   display: flex;
   flex-direction: row;
@@ -186,7 +191,7 @@ header > nav {
 .card-body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-image: linear-gradient(rgb(107, 114, 117), rgb(56, 54, 54));
+  background-image: linear-gradient(rgb(85, 97, 102), rgb(56, 54, 54));
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.582);
 }
 .card-title {
@@ -206,6 +211,6 @@ header > nav {
   width: 100%;
 }
 
-#trending-movies {
+#trending {
   padding: 2%;
 }

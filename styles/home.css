@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
 #main-post {
-  background-image: url("../static/black_panther_main_post.png");
   background-size: cover;
-  width: 80%;
   border-radius: 20px;
   transition: 500ms linear;
 }
