@@ -24,6 +24,10 @@ header {
   justify-content: space-between;
 }
 
+header a:hover{
+  opacity: 90%;
+}
+
 header h1 {
   margin-top: 1%;
   padding: 1%;
@@ -35,9 +39,10 @@ header h1 a {
   text-decoration: none;
 }
 
+
 header h1 a:hover {
   letter-spacing: 2px;
-  opacity: 95%;
+  opacity: 90%;
   color: #ffffff;
   transition: 500ms linear;
 }
@@ -92,21 +97,25 @@ header > nav {
   color: #ffffff;
 }
 
-.search-input {
+#search-input {
   font-family: "Nunito", cursive;
   align-self: center;
+  width: 40%;
 }
 
-.search-input > input {
+#search-input > input {
   border: none;
   border-radius: 10px;
-  width: 450px;
+  width: 70%;
   height: 35px;
 }
 
-.search-input > button > span {
-  padding-left: 10px;
-  padding-right: 10px;
+#search-input > button > span {
+  align-self: center;
+}
+
+#buttonGo{
+  width: 10%;
 }
 
 .modal {
@@ -215,8 +224,14 @@ header > nav {
   padding: 2%;
 }
 
-@media (max-width: 1200px) {
-  #search{
-    width: 50px;
+@media (max-width: 1100px) {
+.trending-text{
+  width: 100px;
+}
+}
+
+@media (max-width: 650px) {
+  header h1 {
+    font-size: 35px;
   }
 }
