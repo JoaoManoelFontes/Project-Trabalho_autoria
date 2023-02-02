@@ -48,7 +48,7 @@ fieldset{
   width: 100%;
 }
 
-#grupoR1{
+.grupoR1{
   justify-content: space-between;
   display: grid;
   grid-template-columns: 100%;
