@@ -30,3 +30,14 @@
 .text-post > a :hover {
   color: #929292;
 }
+
+@media (max-width: 1000px) {
+  #main-post{
+    width: 650px;
+  }
+}
+@media (max-width: 650px) {
+  #main-post{
+    width: 350px;
+  }
+}

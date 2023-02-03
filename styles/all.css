@@ -35,6 +35,7 @@ header h1 {
 }
 
 header h1 a {
+  transition: 500ms linear;
   color: #ffffff;
   text-decoration: none;
 }
@@ -76,6 +77,7 @@ footer > div > div > ul > li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  transition: 500ms linear;
 }
 
 header {
@@ -158,10 +160,11 @@ header > nav {
   border-radius: 10px;
   color: #ffff;
   padding: 3%;
-  width: 35%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 500ms linear;
 }
 
 .modal_content > p > a {
@@ -231,16 +234,26 @@ header > nav {
 
 @media (max-width: 650px) {
   header h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 
-  #modal-main-container {
-    width: 80%;
+  footer > div > div > ul > li {
+    margin-bottom: 10px;
+  }
+
+  .container-flex-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
 @media (max-width: 990px) {
   #search-input {
     display: none;
+  }
+
+  #modal-main-container {
+    width: 80%;
   }
 }
