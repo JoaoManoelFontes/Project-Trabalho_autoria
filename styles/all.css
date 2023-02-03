@@ -108,6 +108,13 @@ header > nav {
   width: 40%;
 }
 
+#search-input2 {
+  font-family: "Nunito", cursive;
+  align-self: center;
+  width: 60%;
+  margin-right: 2%;
+}
+
 #search-input > input {
   border: none;
   border-radius: 10px;
@@ -255,6 +262,10 @@ header > nav {
 @media (max-width: 990px) {
   #search-input {
     display: none;
+  }
+
+  #buttonGo {
+    width: 20%;
   }
 
   #modal-main-container {
