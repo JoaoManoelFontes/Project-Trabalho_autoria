@@ -32,12 +32,12 @@
 }
 
 @media (max-width: 1000px) {
-  #main-post{
+  #main-post {
     width: 650px;
   }
 }
 @media (max-width: 650px) {
-  #main-post{
+  #main-post {
     width: 350px;
   }
 }

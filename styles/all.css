@@ -98,6 +98,10 @@ header > nav {
   color: #ffffff;
 }
 
+#form-nav-toggle {
+  display: none;
+}
+
 #search-input {
   font-family: "Nunito", cursive;
   align-self: center;
@@ -255,5 +259,10 @@ header > nav {
 
   #modal-main-container {
     width: 80%;
+  }
+
+  #form-nav-toggle {
+    display: flex;
+    flex-direction: row;
   }
 }
