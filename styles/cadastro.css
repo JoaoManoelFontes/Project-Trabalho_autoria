@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-main{
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,30 +31,30 @@ main div h3 {
   font-family: "Bebas Neue", sans-serif;
 }
 
-form{
+form {
   width: 100%;
-  margin: auto;     
-  box-sizing: border-box;  
+  margin: auto;
+  box-sizing: border-box;
 }
 
-label{
+label {
   font-family: "Bebas Neue", sans-serif;
   display: block;
   width: 100%;
 }
 
-fieldset{
+fieldset {
   border: 0;
   width: 100%;
 }
 
-.grupoR1{
+.grupoR1 {
   justify-content: space-between;
   display: grid;
   grid-template-columns: 100%;
 }
 
-#grupoR2{
+#grupoR2 {
   justify-content: space-between;
   display: grid;
   grid-template-columns: 10% 40% 30%;
@@ -68,36 +68,41 @@ fieldset{
   margin-bottom: 5%;
 }
 
-#BEntrar{
+#BEntrar {
   font-family: "Bebas Neue", sans-serif;
-  font-size:larger;
+  font-size: larger;
   border-radius: 15px;
   color: white;
   width: 30%;
 }
 
-button{
+button {
   color: white;
   margin-left: 7px;
   border: 0;
   height: 40px;
 }
 
-.botao{
+.botao {
   margin-top: 10px;
   text-align: center;
+}
+
+div.form-group > input {
+  height: 40%;
+  margin-top: -5%;
 }
 
 @media (max-width: 1200px) {
   #main-container {
     width: 80%;
   }
-  #grupoR2{
+  #grupoR2 {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
   }
-  #DDD{
+  #DDD {
     width: 15%;
   }
 }
